@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MKU Graduation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+ 
+         </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0" >
+
+       
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+
+            <!--TIMER-->
+            <div class="timer">
+                <img src="img/MKU_logo.png" width="60px" height="60px">
+                <p id="demo" style="display:inline-block; "> </p>
+            </div>
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 2, 2024 00:01:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + "Days " + hours + "Hours "
+      + minutes + "Minutes " + seconds + "Seconds ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script> 
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="graduation_advert.html" class="dropdown-item">Graduation Advert</a>
+                        <a href="gowns.html" class="dropdown-item">Gown Collection</a>
+                        <a href="happy_valley.html" class="dropdown-item">Happy Valley</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+
+        <div class="owl-carousel header-carousel position-relative">
+           
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel3.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                </div>
+            </div>
+              
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel2.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                    
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel4.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                    <div class="container">
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel5.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel6.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                </div>
+            </div>
+
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel7.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Carousel End -->
+     <center>
+<h3>Vision</h3>
+<p> “To be a Global Hub of Excellence in Education, Research and Innovation”</p>
+
+<h3>Vision</h3>
+
+<p> “To provide world class education, research and innovation for global transformation and sustainable development.”</p>
+ </center>
+    <!-- Mission Vision MKU -->
+
+    <!-- Mission Vision MKU End -->
+
+
+    <!--  MKU Anthem-->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/mku1.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">MKU Anthem</h1>
+                        </div>
+                        <p><i>
+                            Inspired by modernity <br>
+                            Exuding great abilities <br>
+                            Mount Kenya University <br>
+                            Unlocking infinite possibilities. </i><br>
+                          </p>
+                          <p>
+                          We gather on your slopes to build<br>
+                          our capabilities<br>
+                          And stand at the peak to view our<br>
+                          opportunities<br>
+                          With joy and pride we hail your<br>
+                          credibility<br>
+                          Transforming our world with<br>
+                          stunning versatility<br><br>
+                          United we strive to serve the great<br>
+                          humanity<br>
+                          With passion and hope; excellence<br>
+                          and integrity<br>
+                          We trust in God for wisdom and<br>
+                          prosperity<br>
+                          Achieving our goals in science and<br>
+                          technology.<br>
+                          </p>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MKU Anthem End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Past Graduations Tour </h1>
+            </div>
+           
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span class="item-collection-1"> 
+                      <img src="img/p1.jpg">
+                      <img src="img/p2.jpg">
+                      <img src="img/p5.jpg">
+                      <img src="img/p6.png">
+                      <img src="img/p8.jpg">
+                      <img src="img/p9.jpg">
+                      <img src="img/p11.jpg">
+                      <img src="img/p13.jpg">
+                    </div>
+                    </span>
+                    <span class="item-collection-2">
+                        <img src="img/p1.jpg">
+                        <img src="img/p2.jpg">
+                        <img src="img/p5.jpg">
+                        <img src="img/p6.png">
+                        <img src="img/p8.jpg">
+                        <img src="img/p9.jpg">
+                        <img src="img/p11.jpg">
+                        <img src="img/p13.jpg">
+                    </span>
+                </div>
+        </div>
+       <br><a href="gallery.html" class="btn btn-info py-md-3 px-md-5 me-3 animated slideInLeft">View Gallery</a> 
+
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Management Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Management</h1>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/Founder-and-vision-carrier-Prof.-Simon-N.-Gicharu-CBS.png" alt="">                         
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Prof Simon N. Gicharu</h5>
+                            <small>Founder and Vision Carrier</small> <br><br><br>
+                        </div>
+                    </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/PROF.-JOHN-J.M.-STRUTHERS-Chancellor.png" alt="">                    
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Prof. John Struthers</h5>
+                            <small>Chancellor</small> <br><br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/MKU-Vice-Chancellor-Prof-Stanley-Waudo.jpeg" alt="">                         
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Prof Stanley Waudo</h5>
+                            <small>Founding Vice-Chancellor</small> <br><br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/Prof.-Deogratius-Jaganyi-Vice-Chancellor-Mount-Kenya-University.jpg" alt="">                         
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Prof Deogratius Jaganyi</h5>
+                            <small>Vice-Chancellor</small> <br><br>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/Dr.-Peter-Kirira.jpg" alt="">
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Dr. Kirira </h5>
+                            <small>Ag. Deputy Vice-Chancellor,  Administration, Planning and Institutional Advancement </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/Dr.-Mercyline-Kamande-Ag.-Deputy-Vice-Chancellor-Academics-and-Research-AffairsMount-Kenya-University-1-768x828.png" alt="">
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Dr. Mercyline Kamande , Ph.D</h5>
+                            <small>Ag. Deputy Vice-Chancellor Academic and Research Affairs</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Management End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">Happy Valley</h1>
+                        </div>
+                        <p class="mb-4 pb-2">
+                            In the Happy Valley, </br>
+                            Where Graduation caps fly, </br>
+                            And hearts soar, </br>
+                            All gathered here, </br>
+                            With full and bright hearts,
+
+                            </p>
+                            <p class="mb-4 pb-2">
+                                To celebrate the climax of our journey, </br>
+                                Faced numerous trials, </br>
+                                And learned a wide range of lessons, </br>
+                                In Happy Valley, our hearts have yearned, </br>
+                                </p>
+                                <a href="happy_valley.html" class="btn btn-info py-md-3 px-md-5 me-3 animated slideInLeft">View More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/Happy_valley.jpeg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Testimonials</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial1 Isaac.png" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>I am writing to extend my deepest gratitude for the school fee grant that I was awarded during my time at Mount Kenya University. I find myself reflecting on the pivotal moments and vital support systems.</p>
+                        <h5 class="mb-1">ISACK KIMANI</h5>
+                        <span class="fst-italic">BCF/2019/87706 Bachelor of Science (Economics & Finance)</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial1 Ann.png" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>I am grateful I am for the scholarship I received from the MKU Foundation. It has made a huge difference in my educational journey. Getting the internal scholarship not once, but twice (in 2021 and 2022) was such a blessing. </p>                        
+                        <h5 class="mb-1">WANGARE ANN WANJIKU</h5>
+                        <span class="fst-italic">BSNE/2019/88873 Bachelor of Education (Special Needs)</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial Joseph.png" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p> I want to thank you for your generous gift which made my education and my dream come true. Through your support, I have accomplished much of what I thought was impossible. Your support has helped me so much. </p>
+                        <h5 class="mb-1">WAMUYU JOSEPH KIAI </h5>
+                        <span class="fst-italic">DDT/2019/55296 (Diploma in Dental Technology)</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial1Moses.png" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>I was honored and grateful to have been selected as a recipient of the Mount Kenya University Foundation scholarship. The scholarship enabled me to complete the last two semesters required to obtain my Bachelor’s degree while in third year.  </p>
+                        <h5 class="mb-1">MOSES BUSAKA  </h5>
+                        <span class="fst-italic">BLAW/2019/52422 (Bachelor of Laws)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>General Kago Rd,Thika, Kenya</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+254709153000</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@mku.ac.ke</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/mountkenyauni/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/mountkenyauniversity/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCGOvkcfcDRGkC6rGGttoocA"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/mount-kenya-university"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Queries</h4>
+                    <a class="btn btn-link" href="graduation_advert.html">Graduation Date</a>
+                    <a class="btn btn-link" href="graduation_advert.html">Graduation Venue</a>
+                    <a class="btn btn-link" href="graduation_advert.html">Graduation Rehearsal </a>
+                    <a class="btn btn-link" href="graduation_advert.html">Gown Collection</a>
+                    <a class="btn btn-link" href="graduation_advert.html">Gown Returning</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="https://studentportal.mku.ac.ke/">Student Portal</a>
+                    <a class="btn btn-link" href="https://mkufoundation.org/">MKU Foundation</a>
+                    <a class="btn btn-link" href="https://mkufoundation.org/downloads/scholarship-testimonials">Scholarships</a>
+                    <a class="btn btn-link" href="https://news.mku.ac.ke/">MKU Blog</a>
+                    <a class="btn btn-link" href="https://cgsr.mku.ac.ke/bulletin/">Bulletin</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <center>
+                        <img src="img/MKU_logo.png" alt="" class="responsive" width="210" height="200">
+                        <p>MKU is ISO 9001:2015 Certified.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">25th Graduation Matters </a>, All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="">@GeraldMK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-info btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
